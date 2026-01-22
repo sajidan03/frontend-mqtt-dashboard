@@ -18,14 +18,14 @@ const RelayCard: React.FC<RelayCardProps> = ({
 }) => {
   const config = {
     1: {
-      title: 'Light Control',
+      title: 'Relay 1',
       subtitle: 'Relay 1',
       icon: Lightbulb,
       onColor: 'bg-yellow-500',
       offColor: 'bg-gray-300',
     },
     2: {
-      title: 'Fan Control',
+      title: 'Relay 2',
       subtitle: 'Relay 2',
       icon: Fan,
       onColor: 'bg-blue-500',
