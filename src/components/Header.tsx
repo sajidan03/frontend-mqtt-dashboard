@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Wifi, WifiOff, RefreshCw } from 'lucide-react';
+import { Wifi, WifiOff, RefreshCw } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { apiService } from '../lib/api';
 

@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// const API_URL = 'https://sajidan.pythonanywhere.com/api';
 const API_URL = 'http://localhost:5000/api';
 
 export const api = axios.create({
@@ -13,7 +14,6 @@ export interface SensorData {
   magnet_status: number;
   timestamp: string | null;
 }
-
 export interface RelayStatus {
   relay1: boolean;
   relay2: boolean;
@@ -48,3 +48,4 @@ export const apiService = {
     return response.data;
   },
 };
+
