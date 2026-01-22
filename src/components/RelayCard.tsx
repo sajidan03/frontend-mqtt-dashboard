@@ -33,7 +33,7 @@ const RelayCard: React.FC<RelayCardProps> = ({
     },
   };
 
-  const { title, subtitle, icon: Icon, onColor, offColor } = config[relayNumber];
+  const { title, subtitle, icon: Icon } = config[relayNumber];
 
   return (
     <div className="bg-white rounded-xl shadow-lg p-6">
